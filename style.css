@@ -1,0 +1,50 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #030712;
+  /* gray-950 */
+  color: #d1d5db;
+  /* gray-300 */
+}
+
+/* Estilo para simular realce de código */
+pre code {
+  white-space: pre-wrap;
+  /* Quebra de linha para código longo em telas pequenas */
+  word-break: break-all;
+  /* Força quebra de linha em palavras longas */
+}
+
+/* Ajustes responsivos para fontes e padding em telas pequenas */
+@media (max-width: 640px) {
+  .text-3xl {
+    font-size: 2rem;
+  }
+
+  .text-2xl {
+    font-size: 1.5rem;
+  }
+
+  .text-xl {
+    font-size: 1.25rem;
+  }
+
+  .p-4 {
+    padding: 1rem;
+  }
+
+  .sm\:p-6 {
+    padding: 1rem;
+  }
+
+  .lg\:p-8 {
+    padding: 1rem;
+  }
+
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .gap-3 {
+    gap: 0.75rem;
+  }
+}
